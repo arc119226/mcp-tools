@@ -1,18 +1,18 @@
 {
-  "name": "@aiprintmoney-arc/mcp-server-duckduckgo",
+  "name": "@aiprintmoney-arc/mcp-server-hexo",
   "repository": {
     "type": "git",
     "url": "https://github.com/arc119226/mcp-tools.git",
-    "directory": "packages/server-duckduckgo"
+    "directory": "packages/server-hexo"
   },
   "publishConfig": {
     "access": "public"
   },
   "version": "0.1.0",
-  "description": "MCP server for web search via DuckDuckGo — zero API key required.",
+  "description": "MCP server for managing Hexo blogs — create, edit, and publish posts via AI.",
   "type": "module",
   "bin": {
-    "mcp-server-duckduckgo": "dist/index.js"
+    "mcp-server-hexo": "dist/index.js"
   },
   "files": [
     "dist"
@@ -26,11 +26,12 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "duckduckgo",
-    "web-search",
+    "hexo",
+    "blog",
+    "static-site",
     "ai-tools",
     "claude",
-    "zero-config"
+    "markdown"
   ],
   "author": "arc119226",
   "license": "MIT",
@@ -39,6 +40,7 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "typescript": "^5.8.3"
   },
   "engines": {

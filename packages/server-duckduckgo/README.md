@@ -20,7 +20,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "duckduckgo": {
       "command": "npx",
-      "args": ["-y", "@anthropic-arc/mcp-server-duckduckgo"]
+      "args": ["-y", "@aiprintmoney-arc/mcp-server-duckduckgo"]
     }
   }
 }
@@ -35,7 +35,7 @@ Add to your `.mcp.json`:
   "mcpServers": {
     "duckduckgo": {
       "command": "npx",
-      "args": ["-y", "@anthropic-arc/mcp-server-duckduckgo"]
+      "args": ["-y", "@aiprintmoney-arc/mcp-server-duckduckgo"]
     }
   }
 }

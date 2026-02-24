@@ -6,9 +6,9 @@ A collection of simple, practical MCP (Model Context Protocol) servers. Zero con
 
 | Package | Description | Status |
 |---------|-------------|--------|
-| [`@anthropic-arc/mcp-server-duckduckgo`](./packages/server-duckduckgo) | Web search via DuckDuckGo — no API key required | v0.1.0 |
-| `@anthropic-arc/mcp-server-hexo` | Manage Hexo blogs via AI | Planned |
-| `@anthropic-arc/mcp-server-jsonl` | JSONL event store for agent memory | Planned |
+| [`@aiprintmoney-arc/mcp-server-duckduckgo`](./packages/server-duckduckgo) | Web search via DuckDuckGo — no API key required | v0.1.0 |
+| [`@aiprintmoney-arc/mcp-server-hexo`](./packages/server-hexo) | Manage Hexo blogs via AI | v0.1.0 |
+| `@aiprintmoney-arc/mcp-server-jsonl` | JSONL event store for agent memory | Planned |
 
 ## Philosophy
 
@@ -23,7 +23,7 @@ Each package can be used independently via `npx`:
 
 ```bash
 # Example: DuckDuckGo search
-npx @anthropic-arc/mcp-server-duckduckgo
+npx @aiprintmoney-arc/mcp-server-duckduckgo
 ```
 
 Or add to your Claude Desktop / Claude Code config. See each package's README for details.
