@@ -1,0 +1,39 @@
+{
+  "name": "@anthropic-arc/mcp-server-duckduckgo",
+  "version": "0.1.0",
+  "description": "MCP server for web search via DuckDuckGo — zero API key required.",
+  "type": "module",
+  "bin": {
+    "mcp-server-duckduckgo": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "duckduckgo",
+    "web-search",
+    "ai-tools",
+    "claude",
+    "zero-config"
+  ],
+  "author": "arc119226",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

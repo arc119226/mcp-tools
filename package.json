@@ -1,0 +1,25 @@
+{
+  "name": "mcp-tools",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A collection of simple, practical MCP servers — zero config, just works.",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-tools",
+    "claude",
+    "llm"
+  ],
+  "author": "arc119226",
+  "license": "MIT"
+}
